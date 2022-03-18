@@ -1,4 +1,17 @@
 {
+  "languageserver": {
+    "elmLS": {
+      "command": "elm-language-server",
+      "filetypes": ["elm"],
+      "rootPatterns": ["elm.json"]
+    },
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  },
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "sass",
@@ -12,7 +25,7 @@
     "typescriptreact",
     "python"
   ],
-  "prettier.singleQuote": true,
+  "prettier.singleQuote": false,
   "javascript.autoClosingTags": true,
   "typescript.autoClosingTags": true,
   "emmet.includeLanguages": [

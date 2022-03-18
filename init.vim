@@ -7,29 +7,32 @@ endif
 call plug#begin()
     " Colour Scheme
     Plug 'EdenEast/nightfox.nvim' 
-      
-    " Appearance
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
-    Plug 'ryanoasis/vim-devicons'
-
+    
     " Utilities
     Plug 'sheerun/vim-polyglot'
     Plug 'jiangmiao/auto-pairs'
     Plug 'ap/vim-css-color'
     Plug 'preservim/nerdtree'
 
-    " Completion / linters / formatters
+    " Completion / linters / formatters / debuggers
     Plug 'neoclide/coc.nvim',  {'branch': 'master', 'do': 'yarn install'}
     Plug 'plasticboy/vim-markdown'
-
+    Plug 'mfussenegger/nvim-dap'
+    
     " Git
     Plug 'airblade/vim-gitgutter'
+      
+    " Appearance
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 "Plug-in Options
+  " Lua requires
+    lua require('util') 
   " Airline
-    let g:airline_theme='nightfox'
+    let g:airline_themes='nightfox'
     let g:airline_powerline_fonts=1
     let g:airline#extensions#tabline#enables=1
 
@@ -76,6 +79,12 @@ let g:netrw_altv=1
 let g:netrw_winsize=25
 let g:netrw_keepdir=0
 let g:netrw_localcopydircmd='cp -r'
+
+
+" Keyboard mappings
+    nnoremap <S-j> :lua require'dap'.toggle_breakpoint()<CR>
+
+
 
 " Vimscript stuff
 filetype plugin indent on
