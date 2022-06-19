@@ -6,7 +6,9 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 call plug#begin()
     " Colour Scheme
-    Plug 'EdenEast/nightfox.nvim' 
+    "Plug 'EdenEast/nightfox.nvim' 
+    Plug 'NLKNguyen/papercolor-theme'
+    "Plug 'franbach/miramare'
     
     " Utilities
     Plug 'sheerun/vim-polyglot'
@@ -15,12 +17,14 @@ call plug#begin()
     Plug 'preservim/nerdtree'
 
     " Completion / linters / formatters / debuggers
-    Plug 'neoclide/coc.nvim',  {'branch': 'master', 'do': 'yarn install'}
+    Plug 'neoclide/coc.nvim',  {'branch': 'release', 'do': 'yarn install'}
     Plug 'plasticboy/vim-markdown'
-    Plug 'mfussenegger/nvim-dap'
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+    "Plug 'godlygeek/tabular'
+    "Plug 'mfussenegger/nvim-dap'
     
     " Git
-    Plug 'airblade/vim-gitgutter'
+"    Plug 'airblade/vim-gitgutter'
       
     " Appearance
     Plug 'vim-airline/vim-airline'
@@ -30,9 +34,9 @@ call plug#end()
 
 "Plug-in Options
   " Lua requires
-    lua require('util') 
+    "lua require('util') 
   " Airline
-    let g:airline_themes='nightfox'
+    let g:airline_themes='miramare'
     let g:airline_powerline_fonts=1
     let g:airline#extensions#tabline#enables=1
 
@@ -42,29 +46,32 @@ call plug#end()
   " Coc
     command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 
-" Options
-set background=dark
-colorscheme nightfox
-set clipboard=unnamedplus
-set completeopt=noinsert,menuone,noselect
-set cursorline
-set hidden
-set inccommand=split
-set mouse=a
-set number
-set relativenumber
-set splitbelow splitright
-set title
-set ttimeoutlen=0
-set wildmenu
-
-
 " Terminal-Based settings (font, colours, etc.)
+set t_ZH=^[[3m
+set t_ZR=^[[23m
+highlight Comment cterm=italic
 set t_Co=256
   " If 256 colours is not supported by terminal (i.e. not $TERM var)
 if $TERM !=? 'xterm-256color'
   set termguicolors
 endif
+
+" Options
+"set background=dark
+colorscheme PaperColor
+set clipboard=unnamedplus
+set completeopt=noinsert,menuone,noselect
+set cursorline
+set hidden
+set inccommand=split
+"set mouse=a
+set number
+"set relativenumber
+set splitbelow splitright
+set title
+set ttimeoutlen=0
+set wildmenu
+
 
 " Tab size
 set expandtab
@@ -82,8 +89,8 @@ let g:netrw_localcopydircmd='cp -r'
 
 
 " Keyboard mappings
-    nnoremap <S-j> :lua require'dap'.toggle_breakpoint()<CR>
-
+inoremap <silent> ,s <C-r>=CocActionAsync('showSignatureHelp')<CR>
+nmap <C-s> <Plug>MarkdownPreviewToggle
 
 
 " Vimscript stuff
