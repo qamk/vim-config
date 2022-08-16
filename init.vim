@@ -7,8 +7,8 @@ endif
 call plug#begin()
     " Colour Scheme
     "Plug 'EdenEast/nightfox.nvim' 
-    Plug 'NLKNguyen/papercolor-theme'
-    "Plug 'franbach/miramare'
+    "Plug 'NLKNguyen/papercolor-theme'
+    Plug 'franbach/miramare'
     
     " Utilities
     Plug 'sheerun/vim-polyglot'
@@ -58,7 +58,7 @@ endif
 
 " Options
 "set background=dark
-colorscheme PaperColor
+colorscheme miramare
 set clipboard=unnamedplus
 set completeopt=noinsert,menuone,noselect
 set cursorline
@@ -90,8 +90,10 @@ let g:netrw_localcopydircmd='cp -r'
 
 " Keyboard mappings
 inoremap <silent> ,s <C-r>=CocActionAsync('showSignatureHelp')<CR>
-nmap <C-s> <Plug>MarkdownPreviewToggle
-
+nnoremap <C-s> <Plug>MarkdownPreviewToggle
+nnoremap <A-]> <cmd>call CocActionAsync('jumpDefinition')<CR>
+nnoremap <A-[> <cmd>call CocActionAsync('jumpTypeDefinition')<CR>
+nnoremap <A-'> <cmd>call CocActionAsync('jumpReferences')<CR>
 
 " Vimscript stuff
 filetype plugin indent on
