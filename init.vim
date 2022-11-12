@@ -19,7 +19,8 @@ call plug#begin()
     " Completion / linters / formatters / debuggers
     Plug 'neoclide/coc.nvim',  {'branch': 'release', 'do': 'yarn install'}
     Plug 'plasticboy/vim-markdown'
-    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+    "Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
     "Plug 'godlygeek/tabular'
     "Plug 'mfussenegger/nvim-dap'
     
@@ -64,7 +65,7 @@ set completeopt=noinsert,menuone,noselect
 set cursorline
 set hidden
 set inccommand=split
-"set mouse=a
+set mouse=a
 set number
 "set relativenumber
 set splitbelow splitright
