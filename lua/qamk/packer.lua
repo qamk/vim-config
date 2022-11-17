@@ -36,6 +36,7 @@ return packer.startup(function(use)
     use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
     use "jiangmiao/auto-pairs"
     use "vim-airline/vim-airline"
+    use "ap/vim-css-color"
 
     -- File Navigation -- 
     use {"nvim-tree/nvim-tree.lua", config = function () require ("nvim-tree").setup() end}
