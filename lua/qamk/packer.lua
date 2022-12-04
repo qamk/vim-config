@@ -45,7 +45,9 @@ return packer.startup(function(use)
     use {"hrsh7th/nvim-cmp", requires = { "L3MON4D3/LuaSnip" } } -- LuaSnip is a snippet engine
     use "saadparwaiz1/cmp_luasnip" -- snippet completions
     use "hrsh7th/cmp-path" -- path completions
+    use "hrsh7th/cmp-buffer" -- buffer completions
     use "hrsh7th/cmp-nvim-lsp" -- nvim LSP completion
+    use "hrsh7th/cmp-nvim-lua" -- config completion
 
     -- LSP
     use "neovim/nvim-lspconfig" -- nvim LSP (configs, but it enables LSP)
@@ -64,7 +66,7 @@ return packer.startup(function(use)
     use "nvim-treesitter/playground"
 
     -- Markdown --
-    use {"iamcco/markdown-preview.nvim", run = "cd app && npm install", cmd = "MarkdownPreview"}
+    use {"iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = "markdown"}
 
     -- Colour Scheme --
     -- use "jaredgorski/SpaceCamp"
