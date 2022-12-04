@@ -18,6 +18,7 @@ vim.g.mapleader = " "
 
 -- Command --
 keymap("n", "<leader>e", ":NvimTreeToggle .<CR>", opts)
+keymap("n", "<C-s>", ":MarkdownPreviewToggle<CR>", opts)
 
 -- Normal --
 -- resize windows with arrow keys
@@ -31,6 +32,10 @@ keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
+
+-- Insert --
+-- composite actions
+keymap("i", "<C-j>", "<Esc>o", opts) -- creates and jumps to a new line
 
 -- Visual --
 -- Stay in indent mode

@@ -2,7 +2,9 @@ local servers = {
 	"sumneko_lua",
 	"tsserver",
 	"jsonls",
-    "rust_analyzer"
+  "rust_analyzer",
+  "astro",
+  "pyright"
 }
 
 local settings = {
@@ -26,6 +28,7 @@ require("mason-lspconfig").setup({
 
 local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
 if not lspconfig_status_ok then
+  vim.notify("lspconfig not found, please install via your plugin manager.")
 	return
 end
 
