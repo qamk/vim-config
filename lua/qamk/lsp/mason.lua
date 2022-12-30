@@ -4,7 +4,9 @@ local servers = {
 	"jsonls",
   "rust_analyzer",
   "astro",
-  "pyright"
+  "pyright",
+  "emmet_ls",
+  "tailwindcss"
 }
 
 local settings = {
