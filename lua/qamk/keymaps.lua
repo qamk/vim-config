@@ -18,6 +18,7 @@ vim.g.mapleader = " "
 
 -- Command --
 keymap("n", "<leader>e", ":NvimTreeToggle .<CR>", opts)
+keymap("n", "<leader>fe", ":NvimTreeFindFileToggle <CR>", opts)
 keymap("n", "<C-s>", ":MarkdownPreviewToggle<CR>", opts)
 
 -- Normal --
@@ -53,3 +54,8 @@ keymap("x", "J", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
+
+-- Telescope
+keymap("n", "<leader>gf", "<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{ previewer = false })<CR>", opts)
+keymap("n", "<leader>gg", "<cmd>Telescope live_grep<CR>", opts)
+
