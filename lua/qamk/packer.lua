@@ -65,6 +65,9 @@ return packer.startup(function(use)
     use "p00f/nvim-ts-rainbow"
     use "nvim-treesitter/playground"
 
+    -- Telescope
+    use { "nvim-telescope/telescope.nvim", branch = "0.1.x" }
+
     -- Markdown --
     use {"iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = "markdown"}
 
