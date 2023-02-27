@@ -1,6 +1,6 @@
 local servers = {
     "sumneko_lua",
-    "tsserver",
+--    "tsserver",
     "jsonls",
     "rust_analyzer",
     "astro",
@@ -8,7 +8,7 @@ local servers = {
     "emmet_ls",
     "cssls",
     "html",
-    "tailwindcss"
+--    "tailwindcss"
 }
 
 local settings = {
