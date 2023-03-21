@@ -1,5 +1,5 @@
 local servers = {
-    "sumneko_lua",
+    "lua_ls",
 --    "tsserver",
     "jsonls",
     "rust_analyzer",
