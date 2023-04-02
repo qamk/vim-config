@@ -1,5 +1,5 @@
 return {
-    {"hrsh7th/nvim-cmp", event= "InsertEnter", dependencies = {
+    {"hrsh7th/nvim-cmp",  dependencies = {
         "L3MON4D3/LuaSnip", -- LuaSnip is a snippet engine
         "hrsh7th/cmp-path", -- path completions
         "hrsh7th/cmp-buffer", -- buffer completions
