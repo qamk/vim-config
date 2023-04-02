@@ -22,7 +22,7 @@ vim.opt.rtp:prepend(lazypath)
 local status_ok, lazy = pcall(require, "lazy")
 
 if not status_ok then
-    vim.notify("failed to require lazt in lazy.lua")
+    vim.notify("failed to require lazy in lazy.lua")
     return
 end
 
