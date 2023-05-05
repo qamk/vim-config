@@ -111,9 +111,9 @@ cmp.setup {
       end,
   },
   sources = {
-      { name = "nvim_lsp" },
+      { name = "nvim_lsp", keyword_length = 6, max_item_count = 30 },
       { name = "nvim_lua" },
-      { name = "luasnip" },
+      -- { name = "luasnip" },
       { name = "buffer" },
       { name = "path" },
   },
@@ -124,6 +124,11 @@ cmp.setup {
   window = {
       documentation = cmp.config.window.bordered(),
   },
+    performance = { -- performance of filtering & displaying completion suggestions
+        trigger_debounce_time = 500, -- interval for grouping completion sources
+        throttle = 550, -- delay of fitering & displaying completion
+        fetching_timeout = 80, -- timeout for fetching highest priority completions
+    },
   experimental = {
       ghost_text = true,
       native_menu = false,
