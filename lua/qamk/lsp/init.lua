@@ -6,4 +6,3 @@ end
 require "qamk.lsp.mason"
 require "qamk.lsp.manual-setup"
 require("qamk.lsp.handlers").setup()
-require "qamk.lsp.null-ls"
