@@ -8,6 +8,8 @@ local servers = {
     "emmet_ls",
     "cssls",
     "html",
+    "clangd",
+    "julia-lsp",
 --    "tailwindcss"
 }
 
