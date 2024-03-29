@@ -36,7 +36,7 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Insert --
 -- composite actions
-keymap("i", "<C-j>", "<Esc>o", opts) -- creates and jumps to a new line
+keymap("i", "<M-j>", "<Esc>o", opts) -- creates and jumps to a new line
 
 -- Visual --
 -- Stay in indent mode
