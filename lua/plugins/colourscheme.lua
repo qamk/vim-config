@@ -4,5 +4,7 @@ return {
     "folke/tokyonight.nvim",
     "ellisonleao/gruvbox.nvim",
     "catppuccin/nvim",
-    { "Shatur/neovim-ayu", lazy= false, priority=1000, config = function () vim.cmd([[colorscheme ayu-mirage]]) end },
+    "savq/melange-nvim",
+    "Shatur/neovim-ayu",
+    { "sainnhe/sonokai", lazy= false, priority=1000, config = function ()  vim.cmd([[let g:sonokai_style="espresso"]]) vim.cmd({ cmd = "colorscheme", args = {'sonokai'} }) end },
 }
