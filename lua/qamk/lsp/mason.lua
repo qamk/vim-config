@@ -9,7 +9,7 @@ local servers = {
     "cssls",
     "html",
     "clangd",
-    "julia-lsp",
+    "julials",
 --    "tailwindcss"
 }
 
