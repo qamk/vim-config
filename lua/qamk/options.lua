@@ -11,7 +11,7 @@ local options = {
     conceallevel = 0 ,                       -- so that `` is visible in markdown files
     fileencoding = "utf-8",                  -- the encoding written to a file
     hlsearch = false,                         -- highlight all matches on previous search pattern
-    incsearch = true,
+    incsearch = true,                        -- show where pattern matches as it's being typed
     ignorecase = false,                       -- ignore case in search patterns
     mouse = "a",                             -- allow the mouse to be used in neovim
     pumheight = 10,                          -- pop up menu height
@@ -37,9 +37,9 @@ local options = {
     scrolloff = 8,                           -- min number of lines displayed above and below cursor (makes zz or zt etc. less relevant)
     -- sidescrolloff = 8,
     guifont = "monospace:h17",               -- the font used in graphical neovim applications
-    foldmethod="expr",
-    foldexpr="nvim_treesitter#foldexpr()",
-    foldenable = false,                     -- Disable folding at startup.
+    foldmethod="expr",                       -- allow a function to determine folding
+    foldexpr="nvim_treesitter#foldexpr()",   -- set folding function
+    foldenable = false,                     -- disable folding at startup.
 }
 
 vim.opt.shortmess:append "c"
