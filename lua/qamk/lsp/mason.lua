@@ -1,10 +1,12 @@
 local servers = {
     "lua_ls",
 --    "tsserver",
+    "ts_ls",
     "jsonls",
     "rust_analyzer",
     "astro",
-    "pyright",
+--    "pyright",
+--   "ruff",
     "emmet_ls",
     "cssls",
     "html",

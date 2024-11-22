@@ -1,6 +1,7 @@
 local manual_servers = {
-    "tsserver",
-    "tailwindcss"
+--  "tsserver",
+    "ruff",
+--  "tailwindcss"
 }
 
 local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
