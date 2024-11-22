@@ -17,9 +17,9 @@ keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 
 -- Command --
-keymap("n", "<leader>e", ":NvimTreeToggle .<CR>", opts)
-keymap("n", "<leader>fe", ":NvimTreeFindFileToggle <CR>", opts)
-keymap("n", "<C-s>", ":MarkdownPreviewToggle<CR>", opts)
+keymap("n", "<leader>e", ":NvimTreeToggle .<CR>", opts) -- opens NvimTree in the PWD
+keymap("n", "<leader>fe", ":NvimTreeFindFileToggle <CR>", opts) -- open NvimTree, highlighting the current file
+keymap("n", "<C-s>", ":Markview<CR>", opts) -- toggles Markview
 
 -- Normal --
 -- resize windows with arrow keys
