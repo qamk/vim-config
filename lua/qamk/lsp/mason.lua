@@ -1,18 +1,22 @@
 local servers = {
-    "lua_ls",
---    "tsserver",
-    "ts_ls",
-    "jsonls",
-    "rust_analyzer",
     "astro",
---    "pyright",
---   "ruff",
-    "emmet_ls",
-    "cssls",
-    "html",
     "clangd",
+    "cssls",
+    "elixirls",
+    "emmet_ls",
+--  "fsautocomplete"
+    "lua_ls",
+    "html",
+    "jsonls",
     "julials",
---    "tailwindcss"
+--    "lexical",
+--    "nextls",
+    "pyright",
+--   "ruff",
+    "rust_analyzer",
+    "ts_ls",
+--  "tailwindcss",
+--  "tsserver",
 }
 
 local settings = {
