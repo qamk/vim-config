@@ -15,7 +15,7 @@ local servers = {
 --   "ruff",
     "rust_analyzer",
     "ts_ls",
---  "tailwindcss",
+    "tailwindcss",
 --  "tsserver",
 }
 
