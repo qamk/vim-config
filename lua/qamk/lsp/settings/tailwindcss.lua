@@ -1,3 +1,3 @@
 return {
-  cmd = { "tailwindcss-language-server", "--stdio" },
+    cmd = { "tailwindcss-language-server", "--stdio" },
 }
