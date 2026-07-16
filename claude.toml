@@ -1,0 +1,56 @@
+[target]
+id = "claude"
+adapter = "claude"
+schema_version = 1
+
+[features.instructions]
+status = "native"
+destination = "~/.claude/CLAUDE.md"
+format = "markdown"
+
+[features.skills]
+status = "native"
+destination = "~/.claude/skills"
+format = "agent-skills"
+
+[features.subagents]
+status = "native"
+destination = "~/.claude/agents"
+format = "claude-markdown"
+
+[features.hooks]
+status = "emulated"
+destination = "~/.claude/hooks"
+manifest = "~/.claude/agentic-hooks.fragment.json"
+policy = "warn"
+reason = "Generated hook declarations are emitted as a fragment and must be merged into settings.json."
+
+[features.rules]
+status = "emulated"
+destination = "~/.claude"
+policy = "warn"
+reason = "Selected Claude permissions remain a reviewed settings fragment."
+
+[features.plugins]
+status = "disabled"
+policy = "skip"
+reason = "Installed plugin state is intentionally managed outside the canonical compiler."
+
+[features.resources]
+status = "native"
+destination = "~/.claude/agentic"
+
+[features.projects]
+status = "native"
+destination = "~/.claude/projects"
+
+[features.content]
+status = "disabled"
+policy = "skip"
+reason = "Notes and produced-artifact migration is an optional future extension."
+
+[models]
+fast = "haiku"
+default = "sonnet"
+deep = "opus"
+

@@ -1,0 +1,17 @@
+# handoff report frontmatter schema
+
+fields:
+  status:
+    type: "enum"
+    values: [shipped, communicated, revisiting, monitoring]
+    required: true
+
+  variant:
+    type: "enum"
+    values: [tier2, tier3]
+    required: false
+
+  audience:
+    type: "list[enum]"
+    values: [operational, technical, engineering, leadership, support-engineer, cx]
+    required: true

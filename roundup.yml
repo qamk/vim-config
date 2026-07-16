@@ -1,0 +1,13 @@
+# roundup report frontmatter schema
+
+fields:
+  date_range:
+    type: "object"
+    required: true
+    children:
+      since:
+        type: "date"
+        required: true
+      until:
+        type: "date"
+        required: true

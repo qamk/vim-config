@@ -1,0 +1,17 @@
+# analysis report frontmatter schema
+
+fields:
+  status:
+    type: "enum"
+    values: [shipped, revisiting, monitoring]
+    required: true
+
+  variant:
+    type: "enum"
+    values: [leadership, technical]
+    required: false
+
+  audience:
+    type: "list[enum]"
+    values: [operational, technical, engineering, leadership, cx]
+    required: true

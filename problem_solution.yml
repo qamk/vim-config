@@ -1,0 +1,17 @@
+# problem-solution report frontmatter schema
+
+fields:
+  status:
+    type: "enum"
+    values: [shipped, communicated, revisiting, monitoring]
+    required: true
+
+  variant:
+    type: "enum"
+    values: [operational, developing, principal, leadership]
+    required: false
+
+  audience:
+    type: "list[enum]"
+    values: [operational, technical, engineering, leadership, cx]
+    required: true

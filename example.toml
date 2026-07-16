@@ -1,0 +1,18 @@
+# Copy to values/user.toml and customize. Do not put secrets in this file.
+
+[user]
+notes_dir = "~/fifthdimensionai/working_notes"
+reports_dir = "~/fifthdimensionai/reports/generated"
+diagrams_dir = "~/fifthdimensionai/diagrams"
+
+[project]
+# root is normally runtime-specific; set only for a fixed harness.
+# root = "/absolute/project/path"
+
+[runtime]
+# Runtime values may intentionally remain unresolved in generated instructions.
+
+[secret]
+# Use environment/keychain references, never literal credentials.
+# slack_token = "env:SLACK_TOKEN"
+

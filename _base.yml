@@ -1,0 +1,33 @@
+# Base frontmatter fields shared by all report types.
+# lint_report.py merges this with the per-type schema before validation.
+
+fields:
+  type:
+    type: "enum"
+    values: [report]
+    required: true
+
+  subtype:
+    type: "enum"
+    values: [problem-solution, analysis, outline, feature-release, handoff, post-mortem, roundup]
+    required: true
+
+  date:
+    type: "date"
+    required: true
+
+  tags:
+    type: "list[string]"
+    required: false
+
+  scope:
+    type: "list[string]"
+    required: false
+
+  tickets:
+    type: "list[string]"
+    required: false
+
+  related:
+    type: "list[object]"
+    required: false

@@ -1,0 +1,751 @@
+{
+  "adapter": "claude",
+  "files": [
+    {
+      "category": "instructions",
+      "destination": "core/instructions.md",
+      "sha256": "7c1a37afe7af361f1bc546ca8233efc3b82eb357ed581a7b47f4c55f0b6ca108",
+      "source": "/Users/qamk/.claude/CLAUDE.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/common_mistakes.md",
+      "sha256": "1b44139e47a23f425ea499a8ec74e65b6535077c534c695575c56ca4b95e2b3b",
+      "source": "/Users/qamk/.claude/common_mistakes.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/core_principles.md",
+      "sha256": "f077a47f0f7d877a3953c46e0a4f6592c2538ffbd9a535f8bb818a0f25a6042a",
+      "source": "/Users/qamk/.claude/core_principles.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/database_query_patterns.md",
+      "sha256": "abbeac33947f505716d985327e4c5678f892fb4a53c675e73fdbf7fb1199b17f",
+      "source": "/Users/qamk/.claude/database_query_patterns.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/edge_cases.md",
+      "sha256": "b63095f1fd6fdd96e77be7a1573a10bbb3716006d47d67d80c703d7b2fca439c",
+      "source": "/Users/qamk/.claude/edge_cases.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/failure_modes.md",
+      "sha256": "c682b0cdf893c33c6fc1455aca0153290986a086438f67e78b350d1167da254f",
+      "source": "/Users/qamk/.claude/failure_modes.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/investigation_workflow.md",
+      "sha256": "def189b193d1d3d6a8bd8f3c015c5743b046b371abd37692a41c188b5beee7f7",
+      "source": "/Users/qamk/.claude/investigation_workflow.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/message_targets.md",
+      "sha256": "be1609d4829b0c9f575da272d06f8cc60fb6220efa4f614267b6cc1c23e7a5c6",
+      "source": "/Users/qamk/.claude/message_targets.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/path_variables.md",
+      "sha256": "e714220a6627646cd7b275803c0c39649a0ef482d727cfab2ff44fa4ba60fc0b",
+      "source": "/Users/qamk/.claude/path_variables.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/planning_protocol.md",
+      "sha256": "f7ad4df2a13e0524712d7c326519cc72e81ab92395a8800b2e5c5dfe5da99ef3",
+      "source": "/Users/qamk/.claude/planning_protocol.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/quality_assurance.md",
+      "sha256": "e4a6e6632d201e62f94431922b9e2927b4999d9980ab7084020d680ffaaeac15",
+      "source": "/Users/qamk/.claude/quality_assurance.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/quick_reference.md",
+      "sha256": "64d48767f5277f0612e46de88a34803287dc5913e4a06b7732df747ace46ee39",
+      "source": "/Users/qamk/.claude/quick_reference.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/report_iteration.md",
+      "sha256": "8f2e2a5fdb00b23d5e90e05583c19be15ad96afaf099e9a3159cc55499f8b0ba",
+      "source": "/Users/qamk/.claude/report_iteration.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/report_selection.md",
+      "sha256": "7c7262265bd08bd09ec5077e78e6cf56d5a591079151087105f7c95869f54b54",
+      "source": "/Users/qamk/.claude/report_selection.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/reporting.md",
+      "sha256": "14d410a6daff425cedcd8f7b3822206acdf775682a183e06b108c38b6e0899ab",
+      "source": "/Users/qamk/.claude/reporting.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/reports.md",
+      "sha256": "6149bc3e254c47505bf250b059e139c5193c80fdeb1bd38cbf9ad45b0ca3dbe2",
+      "source": "/Users/qamk/.claude/reports.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/search_tool_patterns.md",
+      "sha256": "547c2dd544f630215957b8e7804a1fe4cb09adf65401be9f78d854e2de387b44",
+      "source": "/Users/qamk/.claude/search_tool_patterns.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/success_criteria.md",
+      "sha256": "c6f5d97921ebfce2b5afe7f94d44aa6f8af4deeb61c3adcad8ead0721fc0a8e9",
+      "source": "/Users/qamk/.claude/success_criteria.md"
+    },
+    {
+      "category": "reference",
+      "destination": "resources/references/thinking_and_notes.md",
+      "sha256": "fe057cd93c4cdabc3ee95ce4d747bc930bbdad635c8a0ef4bf4035c381c706fa",
+      "source": "/Users/qamk/.claude/thinking_and_notes.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/SKILL.md",
+      "sha256": "05109dee1284edd7e94efd614726fab042f28c6ef448594bd1a5ebe686a1df1b",
+      "source": "/Users/qamk/.claude/skills/diagram/SKILL.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/data-contract.md",
+      "sha256": "e22cb3761dcd1dd6059c1b43ae3ef24eb530369a8c82143a8b8782f7a648d276",
+      "source": "/Users/qamk/.claude/skills/diagram/references/data-contract.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/design-tokens.md",
+      "sha256": "25047842246e71992beb8bdfff6f30ea14c7e858d0350d6b211169e9506ed0ba",
+      "source": "/Users/qamk/.claude/skills/diagram/references/design-tokens.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/examples.md",
+      "sha256": "357258e066f2982e12c326fb7f993514b2d5f2ec464c77de26205fb2c29f8050",
+      "source": "/Users/qamk/.claude/skills/diagram/references/examples.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/excalidraw-shapes.md",
+      "sha256": "1271629e57367bb0c16145fbd26c31a28583652f624ef1e4a2263b1335a835aa",
+      "source": "/Users/qamk/.claude/skills/diagram/references/excalidraw-shapes.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/mermaid-rendering.md",
+      "sha256": "9031dc948db1d4043e87fff947d815f4f6b40906533512262960b1aef9af597f",
+      "source": "/Users/qamk/.claude/skills/diagram/references/mermaid-rendering.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/mermaid-templates/architecture.mmd",
+      "sha256": "8828de5d343f40868ba162b512e109263e42a3bc7e006a7a974a815cf36ca02b",
+      "source": "/Users/qamk/.claude/skills/diagram/references/mermaid-templates/architecture.mmd"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/mermaid-templates/data.mmd",
+      "sha256": "330dfaa4277769a7f4fe0ffa8c85c0b30301b823716d63240b18ae51f9f5a923",
+      "source": "/Users/qamk/.claude/skills/diagram/references/mermaid-templates/data.mmd"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/mermaid-templates/flow.mmd",
+      "sha256": "f1d1c14f3348d2ef2b57f699c4feb860c12dc4e8b8e0395043aa7bd2c10833cb",
+      "source": "/Users/qamk/.claude/skills/diagram/references/mermaid-templates/flow.mmd"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/mermaid-templates/gantt.mmd",
+      "sha256": "004b39be26d19640b117ee6f1679e7e29f3ed9a0320c54f18adf2f107e0fa096",
+      "source": "/Users/qamk/.claude/skills/diagram/references/mermaid-templates/gantt.mmd"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/mermaid-templates/pie.mmd",
+      "sha256": "b0d3b7525975eb4d18d45559518ec03a3750b49d133713a0cfb38b2f1d68af33",
+      "source": "/Users/qamk/.claude/skills/diagram/references/mermaid-templates/pie.mmd"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/mermaid-templates/quadrant.mmd",
+      "sha256": "4493605b31c87cd412e7b197c07e4d07b7f9ccf5bf3d4346ad315a7dfc22de38",
+      "source": "/Users/qamk/.claude/skills/diagram/references/mermaid-templates/quadrant.mmd"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/mermaid-templates/sequence.mmd",
+      "sha256": "afe6c6b129614ea3cfe8f8a9ffe1976c30134355c1acbdc05cebeb3cb4ce0b5a",
+      "source": "/Users/qamk/.claude/skills/diagram/references/mermaid-templates/sequence.mmd"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/mermaid-templates/state.mmd",
+      "sha256": "b84305e9be535cd4f5bfac090e4d01fd5bee93551fa2977663ad3b0a20d66980",
+      "source": "/Users/qamk/.claude/skills/diagram/references/mermaid-templates/state.mmd"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/mermaid-templates/xychart.mmd",
+      "sha256": "b2b5b0b074f90d7e1527884797f1a143ff5808fe4bea179f4dac8e67ce18e113",
+      "source": "/Users/qamk/.claude/skills/diagram/references/mermaid-templates/xychart.mmd"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/mermaid-theme.md",
+      "sha256": "120b27055699d2ab17e6976037be60b199871da4f8b2f88ca88975878fc124b8",
+      "source": "/Users/qamk/.claude/skills/diagram/references/mermaid-theme.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/references/tool-routing.md",
+      "sha256": "d43a1fe58d1c7a82a8fcfaf1e1c844d7ec659edf45d755539d57b52eacf848f4",
+      "source": "/Users/qamk/.claude/skills/diagram/references/tool-routing.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/build-diagram.py",
+      "sha256": "76fe0285df205778ae43d29197cf8bcf7f5c14f626f8f572372233be810dda98",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/build-diagram.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/build-excalidraw.py",
+      "sha256": "4bca22438d9ae039064d3fc1922f51c95946aeee3e9c5f483437c102be7e0365",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/build-excalidraw.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/excalidraw/__init__.py",
+      "sha256": "62f3ed79ac364228701ffaab0db3931dc647dfc1bea65d85d577ee95900de6b7",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/excalidraw/__init__.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/excalidraw/components.py",
+      "sha256": "857eef7d70533c7c5c179f558972c0c447371c84edbe49d94cd0b400cf4dad61",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/excalidraw/components.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/excalidraw/id_gen.py",
+      "sha256": "c788abc7a7497f73100a6c0ad92d7aa9acb7acbb2d65f6e0774746902f0f96b4",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/excalidraw/id_gen.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/excalidraw/layout.py",
+      "sha256": "d1e9ef46d13cb8423dadf28368f152a777c5b5004225f04583f63e49d8650418",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/excalidraw/layout.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/excalidraw/primitives.py",
+      "sha256": "9efc32639126f0d278cecd139fe6cb3e64df0404216a6b1c4b4d06f8fc48fd92",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/excalidraw/primitives.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/excalidraw/style.py",
+      "sha256": "d9d9d002f2715253dc68191195d602d5a99a3c36992075508a5717180eab0f44",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/excalidraw/style.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/html-template.html",
+      "sha256": "5d83acc8cd58d02575061c25b6a06fbd290622506acf48f0ea1935c86a24b0f9",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/html-template.html"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/review-diagram.py",
+      "sha256": "7dbd07983934f3e12f340485f5f47c2901332cbc9b9e69e4e994a507df21d007",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/review-diagram.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/review-excalidraw.py",
+      "sha256": "b1c1a70984b258ca0ac2e3ace3c2becc997fc3e63d8fcea3d2bb2c4eb8183c67",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/review-excalidraw.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/callout-strip.js",
+      "sha256": "4cffa98072636b71698521d1cce198925dd81d4638c3a1f976c9e3bf36ef1f4d",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/callout-strip.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/card-grid.js",
+      "sha256": "407b9b36f67ca1a7b67ff0a1a97ddd318d3573bb6bae53513069f9b49d8e1528",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/card-grid.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/collapsible.js",
+      "sha256": "f44fcffdf9693933448b04af11a82e2231e7e7880e19711a23a2bad47daea5f0",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/collapsible.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/data-table.js",
+      "sha256": "1281366fa396ff7bcbe42e528cfef73f2fca4aa32ac8758ac30eb35e225d0957",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/data-table.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/gantt.js",
+      "sha256": "f06b76d15b27e119b4845573813ef03bf5e01e3b6bf3b44b5aaed7ea69a45ec7",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/gantt.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/grouped-layout.js",
+      "sha256": "1b1f312e9c665aa658a4387fb8b4ba57b7c60c9cc177e27cb8bd3b5f2c4b26ff",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/grouped-layout.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/horizontal-flow.js",
+      "sha256": "79adb7c55490a5fee4f23a6241d347fac5487918614e78f78324e7d5aed9a6c6",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/horizontal-flow.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/insight-box.js",
+      "sha256": "c9dabb9cb623fc938fb9c82df62ee0afc5edf1cf000c9c984c7bb9e4bd289bdf",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/insight-box.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/kanban.js",
+      "sha256": "0c6e6e65670d0df55f6b57d70d891b1438f238d8dbc5f84a60f1c3acc8f2edff",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/kanban.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/metric-strip.js",
+      "sha256": "99fc423d73b9f4a6428bd802bd82f709913c6e9f8c90c3bad6adab0c35c77bd5",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/metric-strip.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/mindmap.js",
+      "sha256": "91e1e4a8a150ce56581abf91ea5b686f5db4a1d86939aef2fb5d89ec5cb4f50d",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/mindmap.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/note-block.js",
+      "sha256": "2ba03b92c2d94c93408cd73e957517a3797f74c9bcdf5a38c4e854a950093c99",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/note-block.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/orchestrator.js",
+      "sha256": "1df422b25b7bca70613fb0c1a55029abd5303918a5134ea22b213309f64c6a4d",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/orchestrator.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/sequence.js",
+      "sha256": "3ff5de10b687bb9836746cd00a75ca0ab3d2c26a3ee705d179733156b96bbabd",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/sequence.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/state-machine.js",
+      "sha256": "df1b9c021ef72a1ec84eee4c08e36c2ac84e93bc67250caeaa920ee572ab0902",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/state-machine.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/timeline.js",
+      "sha256": "75fa5d38c154e20f7139ac0852888e266ba74dc32055ad2926a874be45939431",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/timeline.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/topology.js",
+      "sha256": "ff2544388430a793af6640aa01bce257047afccdc488af6d569ff380c8ecee59",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/topology.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/diagram/scripts/snippets/vertical-flow.js",
+      "sha256": "e6ed5a63acbafc0b28225277d85e2538cc543e63683ede7984a00af1982e8608",
+      "source": "/Users/qamk/.claude/skills/diagram/scripts/snippets/vertical-flow.js"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/failure-mode/SKILL.md",
+      "sha256": "9256552fc7c1a630fc383c60571c1437fd5a412599d3041f8df9ffc4c4985f57",
+      "source": "/Users/qamk/.claude/skills/failure-mode/SKILL.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/failure-mode/build_index.py",
+      "sha256": "baa88d679b6fa30d4aaca19fc1751d7614f6052e56827d605bccdfa7372685e7",
+      "source": "/Users/qamk/.claude/skills/failure-mode/build_index.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/ground/SKILL.md",
+      "sha256": "cbf9b07eceb9b0465f2f5e030770e021e43a3ffec06f7c76353102a9f449292d",
+      "source": "/Users/qamk/.claude/skills/ground/SKILL.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/init-project/SKILL.md",
+      "sha256": "7e97c872061ee1f81836d88a50a18c906018aad76818d4a899cdcdb22a310369",
+      "source": "/Users/qamk/.claude/skills/init-project/SKILL.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/investigate/SKILL.md",
+      "sha256": "dc2c3b2e7da34a36aa610cec6347c08b0b26a8b2188a2a47993f8f65f2061364",
+      "source": "/Users/qamk/.claude/skills/investigate/SKILL.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/lookup/SKILL.md",
+      "sha256": "4705736a14fbbb6697b72d6c608a2aaad7a74ae737875665294a1ee8ca98abb8",
+      "source": "/Users/qamk/.claude/skills/lookup/SKILL.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/lookup/query_artefact_index.py",
+      "sha256": "7ffca91417d3c174ab6aac96db7d7fb367f6f9965ee7b02a9bd104ec230c71a3",
+      "source": "/Users/qamk/.claude/skills/lookup/query_artefact_index.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/message/SKILL.md",
+      "sha256": "d182882fd973be82398db2aa71f9071baa74e26e090c847d4fef9f318374db16",
+      "source": "/Users/qamk/.claude/skills/message/SKILL.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/message/scripts/_dispatch.py",
+      "sha256": "49632cc2140dd71dbe8d15347c51cc87962c4b35ea4c7f6aae7bd025acc30a66",
+      "source": "/Users/qamk/.claude/skills/message/scripts/_dispatch.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/message/scripts/_secrets.py",
+      "sha256": "0114fe49ca5747a4e2a15c4badb7f20373a3f7d1008df55875ff843030dbca7d",
+      "source": "/Users/qamk/.claude/skills/message/scripts/_secrets.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/message/scripts/adapters/slack.py",
+      "sha256": "1bf3c91bca05679713da6b56acbcbdb0c2b3786cf437df71eca12d6d2fc884ce",
+      "source": "/Users/qamk/.claude/skills/message/scripts/adapters/slack.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/message/scripts/read.py",
+      "sha256": "a00d24db445833c46ae7d5882d64a9400d19427e859cfa2fbc19e08a76d18f31",
+      "source": "/Users/qamk/.claude/skills/message/scripts/read.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/message/scripts/send.py",
+      "sha256": "dbfdea6302dc60189c0143f14586cadd8bd87d110c42438cad6a711580fc295f",
+      "source": "/Users/qamk/.claude/skills/message/scripts/send.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/message/scripts/test_message.py",
+      "sha256": "a60d3a5728056bdb0acd3411bff5de053e672737977e6128050c0bfaf251a312",
+      "source": "/Users/qamk/.claude/skills/message/scripts/test_message.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/note/SKILL.md",
+      "sha256": "99536c5819ca7de13d1dacf0e96e4be5c32e0fbd414ab572cc8c9f275a678dbc",
+      "source": "/Users/qamk/.claude/skills/note/SKILL.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/note/lint_note.py",
+      "sha256": "63f1775f0338ffbb3dadddd072ccba9a7efef37a67b0cdbab1d1f8046d49743e",
+      "source": "/Users/qamk/.claude/skills/note/lint_note.py"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/playbook/SKILL.md",
+      "sha256": "836e797c3db801c7c340fc7609c32e3431df60bc258f9a1b1cfc90950de4e1ea",
+      "source": "/Users/qamk/.claude/skills/playbook/SKILL.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/publish/SKILL.md",
+      "sha256": "be35866adae859aa773a7f1aad22a19f030129c1fcdf1f6b9166cb1acf0ac489",
+      "source": "/Users/qamk/.claude/skills/publish/SKILL.md"
+    },
+    {
+      "category": "skills",
+      "destination": "skills/report/SKILL.md",
+      "sha256": "fb61f40da16f6da28176104b0f9005e223eda36297ab20f7c9af3951c464a33b",
+      "source": "/Users/qamk/.claude/skills/report/SKILL.md"
+    },
+    {
+      "category": "agents",
+      "destination": "agents/claude-source/claude-md-enforcer.md",
+      "sha256": "7ed78d339a52e49c4e65b6f3f7defadf1be472195d0d0a7d88a19440cdf70dc5",
+      "source": "/Users/qamk/.claude/agents/claude-md-enforcer.md"
+    },
+    {
+      "category": "agents",
+      "destination": "agents/claude-source/context-navigator.md",
+      "sha256": "37776171d89128be21c2a23597ea206d14241ff018957f72c5e342e6a8f15cad",
+      "source": "/Users/qamk/.claude/agents/context-navigator.md"
+    },
+    {
+      "category": "agents",
+      "destination": "agents/claude-source/data-integrity-validator.md",
+      "sha256": "69322d8dff2de30ff393c7fd3ff7aa152534502c4bd1477c5946fb08e30cb3e8",
+      "source": "/Users/qamk/.claude/agents/data-integrity-validator.md"
+    },
+    {
+      "category": "agents",
+      "destination": "agents/claude-source/docs-analyzer.md",
+      "sha256": "850b78297eb30d341065be642f8a4765b20c9112508fc67efd076fca283d3b56",
+      "source": "/Users/qamk/.claude/agents/docs-analyzer.md"
+    },
+    {
+      "category": "agents",
+      "destination": "agents/claude-source/grounding-auditor.md",
+      "sha256": "6bc2a0babbccbbc786a9e80db7b1830008f40507350c3a82f25f930332ebcea6",
+      "source": "/Users/qamk/.claude/agents/grounding-auditor.md"
+    },
+    {
+      "category": "agents",
+      "destination": "agents/claude-source/notes-documenter.md",
+      "sha256": "33ec753607f18dd0ccfa6f11aa6f816af359ce449455023306bfa59f6c8b6d18",
+      "source": "/Users/qamk/.claude/agents/notes-documenter.md"
+    },
+    {
+      "category": "agents",
+      "destination": "agents/claude-source/playbook-builder.md",
+      "sha256": "9fd5001ee48ec1aa417b98c7b52b0ca2ac06fe1267d1831b1f01d46a1fea87d1",
+      "source": "/Users/qamk/.claude/agents/playbook-builder.md"
+    },
+    {
+      "category": "agents",
+      "destination": "agents/claude-source/quality-enforcer.md",
+      "sha256": "c9310534a76957005f860d33cfadf4565e1a524ac6686c2eec804f14bd67d1ea",
+      "source": "/Users/qamk/.claude/agents/quality-enforcer.md"
+    },
+    {
+      "category": "agents",
+      "destination": "agents/claude-source/report-builder.md",
+      "sha256": "3dfc8233a809a069fd26fe681309af3e78ff8e0480adb8f00b240cec8318e528",
+      "source": "/Users/qamk/.claude/agents/report-builder.md"
+    },
+    {
+      "category": "hooks",
+      "destination": "hooks/source/investigate_reminder.py",
+      "sha256": "9997da924a370081534a936dbee5d19e8c76b5f8f0828dd2de57fb6ab0794c18",
+      "source": "/Users/qamk/.claude/hooks/investigate_reminder.py"
+    },
+    {
+      "category": "hooks",
+      "destination": "hooks/source/lookup_reminder.py",
+      "sha256": "17b4b23c5b4490bdd2160cb0b7dc7c3c1e4e0b89a4d71914a0f5652a6b089e9b",
+      "source": "/Users/qamk/.claude/hooks/lookup_reminder.py"
+    },
+    {
+      "category": "hooks",
+      "destination": "hooks/source/user_file_project_check.py",
+      "sha256": "7642e191e2c05f5ed56bcf3b16552ecd0694dc57555cd070476977e153e6f5f2",
+      "source": "/Users/qamk/.claude/hooks/user_file_project_check.py"
+    },
+    {
+      "category": "scripts",
+      "destination": "resources/scripts/python/README.md",
+      "sha256": "be472588f1cfe1294f21bed188c6a020158c4b03cdf180a549e7bdb48c7a4757",
+      "source": "/Users/qamk/.claude/scripts/python/README.md"
+    },
+    {
+      "category": "scripts",
+      "destination": "resources/scripts/python/build_artefact_index.py",
+      "sha256": "accb25a7e0a2f3e7ca3d678dff7076eea69c8cf12c025d796965fedb3530ae87",
+      "source": "/Users/qamk/.claude/scripts/python/build_artefact_index.py"
+    },
+    {
+      "category": "scripts",
+      "destination": "resources/scripts/python/frontmatter.py",
+      "sha256": "6a2ef04e57be7528e72e876c8d1881f0c4400b586c042663e79e93675d0c0c69",
+      "source": "/Users/qamk/.claude/scripts/python/frontmatter.py"
+    },
+    {
+      "category": "scripts",
+      "destination": "resources/scripts/python/lint_report.py",
+      "sha256": "f4e020eaa40046da40f1b57e1e887a31230040af528984834b40c226147887dd",
+      "source": "/Users/qamk/.claude/scripts/python/lint_report.py"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/analysis.md",
+      "sha256": "d2ca77a61bbbe7698c25f7aab57a2382299eb465e5d10ef83cb34ac212c71851",
+      "source": "/Users/qamk/.claude/reports/analysis.md"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/feature_release.md",
+      "sha256": "ce3ec12cd5f9154683f1ca4bbd1529fd6cacc5c49bc43d63413441e64d57fcd0",
+      "source": "/Users/qamk/.claude/reports/feature_release.md"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/handoff.md",
+      "sha256": "25f47b2c0dfa14f9ea62338fb4239821dc48e47750674afa088ff3d495731f47",
+      "source": "/Users/qamk/.claude/reports/handoff.md"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/modifiers.md",
+      "sha256": "2220cffb5f044a8d3a2243901119bf50297462c631a5920058a56f8669cad45e",
+      "source": "/Users/qamk/.claude/reports/modifiers.md"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/outline.md",
+      "sha256": "5addc3befbc13564c8241c5d8a163bd3bd537e29cdc7050f49bf453031b0b024",
+      "source": "/Users/qamk/.claude/reports/outline.md"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/post_mortem.md",
+      "sha256": "920435036fc78aaefcdf791e622a3097c313ff01b76d36d4c955de1c2d5432d7",
+      "source": "/Users/qamk/.claude/reports/post_mortem.md"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/problem_solution.md",
+      "sha256": "02b4ba896d96eb4199ab535165904a9ebef7f354a4499fde9a5d36e20aeda946",
+      "source": "/Users/qamk/.claude/reports/problem_solution.md"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/roundup.md",
+      "sha256": "ed7291cf4d489138d7bd320adbb09d7f92568cd8ffe4f41a34b3205e07bdc7b6",
+      "source": "/Users/qamk/.claude/reports/roundup.md"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/schemas/_base.yml",
+      "sha256": "2a41a4598e35b68105892d213079648220a5bd57cde502871d61ce986035eaec",
+      "source": "/Users/qamk/.claude/reports/schemas/_base.yml"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/schemas/analysis.yml",
+      "sha256": "f8128e9d3b8df3695791919c59dc5c03876d24a1bec82f6d32ce4ea5cd755ebd",
+      "source": "/Users/qamk/.claude/reports/schemas/analysis.yml"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/schemas/feature_release.yml",
+      "sha256": "6630ad308b6a4d0225b73d3ded186be8c647f2bd3036bd823f809a93b2dbdc91",
+      "source": "/Users/qamk/.claude/reports/schemas/feature_release.yml"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/schemas/handoff.yml",
+      "sha256": "cfddfc1c173ae907a312035db983ae376080049452b4371ddf044db07dcd8289",
+      "source": "/Users/qamk/.claude/reports/schemas/handoff.yml"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/schemas/outline.yml",
+      "sha256": "a6b449687495dbedeb74e5786341cf55dbfd80b5e5bae6fd1b8b987b2ee171f4",
+      "source": "/Users/qamk/.claude/reports/schemas/outline.yml"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/schemas/post_mortem.yml",
+      "sha256": "55c78b8187d5ef6497148df40b4eb460eea407eb98f7d3c9e152069e845df7c6",
+      "source": "/Users/qamk/.claude/reports/schemas/post_mortem.yml"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/schemas/problem_solution.yml",
+      "sha256": "ed3b8e4b3b4d04988499205d42763338ab72e4f3ab162c21b32ed2ea27a93948",
+      "source": "/Users/qamk/.claude/reports/schemas/problem_solution.yml"
+    },
+    {
+      "category": "reports",
+      "destination": "resources/reports/schemas/roundup.yml",
+      "sha256": "f385f635e6ba49ed07f5513aebbd0df5925488f9e8986c30c828609dc62fbbe9",
+      "source": "/Users/qamk/.claude/reports/schemas/roundup.yml"
+    },
+    {
+      "category": "schemas",
+      "destination": "resources/schemas/artefact_frontmatter.md",
+      "sha256": "01cc79871f6a23b14fe78cdd4f5aa24b49e7afd94be710d4c0d36cae1e908b0c",
+      "source": "/Users/qamk/.claude/schemas/artefact_frontmatter.md"
+    },
+    {
+      "category": "adapters",
+      "destination": "resources/adapters/notion/README.md",
+      "sha256": "724d77a642ef0ecca775377d9cd6be84840f67533683678850488d1501019189",
+      "source": "/Users/qamk/.claude/adapters/notion/README.md"
+    },
+    {
+      "category": "adapters",
+      "destination": "resources/adapters/notion/manifest.yml",
+      "sha256": "24f5f1112a3a64905d3662d4580df64ab0988d67ca0906cf6a4a591183052086",
+      "source": "/Users/qamk/.claude/adapters/notion/manifest.yml"
+    },
+    {
+      "category": "project",
+      "destination": "projects/-Users-qamk-fifthdimensionai-code-m5/architecture.md",
+      "sha256": "cbea2923545b0467b50d7feb954b3b83d243b1d7553584cebcd86f0f3d15b0c5",
+      "source": "/Users/qamk/.claude/projects/-Users-qamk-fifthdimensionai-code-m5/architecture.md"
+    },
+    {
+      "category": "project",
+      "destination": "projects/-Users-qamk-fifthdimensionai-code-m5/message_targets.md",
+      "sha256": "9bd29b2313c0ceb74c8f7c30687f29a933a3d59da6b1fb321c7878b6bb012dd8",
+      "source": "/Users/qamk/.claude/projects/-Users-qamk-fifthdimensionai-code-m5/message_targets.md"
+    },
+    {
+      "category": "project",
+      "destination": "projects/-Users-qamk-fifthdimensionai-code-m5/project_terms.txt",
+      "sha256": "728c2621dc6a046d2b6ce993c17c33943802a4bdf4c501fcf9ecb393ac108818",
+      "source": "/Users/qamk/.claude/projects/-Users-qamk-fifthdimensionai-code-m5/project_terms.txt"
+    },
+    {
+      "category": "project",
+      "destination": "projects/-Users-qamk-fifthdimensionai-code-m5/publishing_targets.md",
+      "sha256": "368a5e6c1a784789cba4b86c551e88dff2f1731555389a860e23c94b8d556d08",
+      "source": "/Users/qamk/.claude/projects/-Users-qamk-fifthdimensionai-code-m5/publishing_targets.md"
+    },
+    {
+      "category": "settings",
+      "destination": "imports/claude/settings-selected.json",
+      "sha256": "9928d7ef781af0b577dfb42a2c2f6c59c7ee6a8265b302154dc1447d2eaba468",
+      "source": "/Users/qamk/.claude/settings.json"
+    }
+  ],
+  "schema_version": 1,
+  "source": "/Users/qamk/.claude"
+}

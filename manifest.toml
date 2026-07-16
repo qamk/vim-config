@@ -1,0 +1,14 @@
+schema_version = 1
+name = "personal-agentic-config"
+
+[references]
+resource_scheme = "agentic"
+value_namespaces = ["target", "user", "project", "runtime", "secret"]
+
+[safety]
+source_operations = ["read", "copy"]
+allow_moves = false
+allow_source_deletes = false
+allow_symlinks = false
+install_requires_apply = true
+

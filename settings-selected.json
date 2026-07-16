@@ -1,0 +1,77 @@
+{
+  "enabledPlugins": {
+    "5d-engineering@5dai-plugins": true,
+    "bigquery-data-analytics@claude-plugins-official": true,
+    "brand-style-guide@5dai-plugins": true,
+    "debug-5d-thread@5dai-plugins": true,
+    "deploy@5dai-plugins": true,
+    "fe-nav@5dai-plugins": true,
+    "granola@5dai-plugins": true,
+    "notion@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true,
+    "sentry@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true,
+    "writing-style-editor@5dai-plugins": true
+  },
+  "extraKnownMarketplaces": {
+    "5dai-plugins": {
+      "source": {
+        "repo": "5dai-dev/claude-plugins",
+        "source": "github"
+      }
+    }
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "command": "python3 ~/.claude/hooks/user_file_project_check.py",
+            "statusMessage": "Checking for project-specific language...",
+            "timeout": 5,
+            "type": "command"
+          }
+        ],
+        "matcher": "Write|Edit"
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "command": "python3 ~/.claude/hooks/lookup_reminder.py",
+            "timeout": 5,
+            "type": "command"
+          },
+          {
+            "command": "python3 ~/.claude/hooks/investigate_reminder.py",
+            "timeout": 5,
+            "type": "command"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p ~/fifthdimensionai/working_notes/**)",
+      "Bash(mkdir -p ~/fifthdimensionai/reports/generated/**)",
+      "Bash(mkdir -p ~/fifthdimensionai/diagrams/**)",
+      "Read(~/fifthdimensionai/working_notes/**)",
+      "Read(~/fifthdimensionai/reports/generated/**)",
+      "Read(~/fifthdimensionai/diagrams/**)",
+      "Write(~/fifthdimensionai/working_notes/**)",
+      "Write(~/fifthdimensionai/reports/generated/**)",
+      "Write(~/fifthdimensionai/diagrams/**)",
+      "Edit(~/fifthdimensionai/working_notes/**)",
+      "Edit(~/fifthdimensionai/reports/generated/**)",
+      "Edit(~/fifthdimensionai/diagrams/**)"
+    ]
+  },
+  "showThinkingSummaries": true,
+  "skipAutoPermissionPrompt": true,
+  "statusLine": {
+    "command": "~/.claude/statusline.sh",
+    "type": "command"
+  }
+}

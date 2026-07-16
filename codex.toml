@@ -1,0 +1,55 @@
+[target]
+id = "codex"
+adapter = "codex"
+schema_version = 1
+
+[features.instructions]
+status = "native"
+destination = "~/.codex/AGENTS.md"
+format = "markdown"
+
+[features.skills]
+status = "native"
+destination = "~/.agents/skills"
+format = "agent-skills"
+
+[features.subagents]
+status = "transformed"
+destination = "~/.codex/agents"
+source_format = "claude-markdown"
+target_format = "codex-toml"
+
+[features.hooks]
+status = "transformed"
+destination = "~/.codex/hooks"
+manifest = "~/.codex/hooks.json"
+
+[features.rules]
+status = "emulated"
+destination = "~/.codex/rules"
+policy = "warn"
+reason = "Claude permission allowlists require explicit review before becoming Codex execution rules."
+
+[features.plugins]
+status = "disabled"
+policy = "skip"
+reason = "Claude plugin manifests and caches are not directly portable to Codex plugins."
+
+[features.resources]
+status = "native"
+destination = "~/.codex/agentic"
+
+[features.projects]
+status = "native"
+destination = "~/.codex/agentic/projects"
+
+[features.content]
+status = "disabled"
+policy = "skip"
+reason = "Notes and produced-artifact migration is an optional future extension."
+
+[models]
+fast = "gpt-5.6-terra"
+default = "gpt-5.6-sol"
+deep = "gpt-5.6-sol"
+

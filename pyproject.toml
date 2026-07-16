@@ -1,0 +1,12 @@
+[project]
+name = "agentic-config"
+version = "0.1.0"
+description = "Compile canonical agent configuration into copy-only target trees"
+requires-python = ">=3.11"
+
+[project.scripts]
+agentic-config = "agentic_config.cli:main"
+
+[tool.ruff]
+line-length = 100
+

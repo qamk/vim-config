@@ -1,0 +1,22 @@
+# post-mortem report frontmatter schema
+
+fields:
+  status:
+    type: "enum"
+    values: [resolved, mitigated, monitoring]
+    required: true
+
+  severity:
+    type: "enum"
+    values: [P0, P1, P2, P3, P4]
+    required: true
+
+  detection_method:
+    type: "enum"
+    values: [error_tracking, alert, customer_report, internal_discovery, audit]
+    required: true
+
+  audience:
+    type: "list[enum]"
+    values: [operational, technical, engineering, leadership, on-call, support-engineer, cx]
+    required: false
