@@ -3,5 +3,5 @@ return {
     "jiangmiao/auto-pairs",
     "vim-airline/vim-airline",
     "ap/vim-css-color",
-    { "nvim-telescope/telescope.nvim", branch = "0.1.x" },
+    { "nvim-telescope/telescope.nvim"},
 }

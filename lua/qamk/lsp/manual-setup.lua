@@ -5,11 +5,11 @@ local manual_servers = {
 --  "tailwindcss"
 }
 
-local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
-if not lspconfig_status_ok then
-    vim.notify("lspconfig not found, please install via your plugin manager.")
-    return
-end
+-- local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
+-- if not lspconfig_status_ok then
+--     vim.notify("lspconfig not found, please install via your plugin manager.")
+--     return
+-- end
 
 local buffer_opts = {}
 
@@ -26,5 +26,5 @@ for _, server in pairs(manual_servers) do
         buffer_opts = vim.tbl_deep_extend("force", lsp_setup_opts, buffer_opts)
     end
 
-    lspconfig[server].setup(buffer_opts)
+    vim.lsp.config(server, buffer_opts)
 end
