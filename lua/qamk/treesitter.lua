@@ -1,4 +1,4 @@
-local configs = require("nvim-treesitter").setup {
+require("nvim-treesitter").setup {
   ensure_installed = "all",
   sync_install = false,
   ignore_install = { "" }, -- List of parsers to ignore installing
@@ -10,3 +10,7 @@ local configs = require("nvim-treesitter").setup {
   },
   indent = { enable = true, disable = { "yaml" } },
 }
+
+
+-- Register these filetypes with the elixir parser for nvim-treesitter
+-- vim.treesitter.language.register("elixir", { "elixir", "eelixir", "exs" })
