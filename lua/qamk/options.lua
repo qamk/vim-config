@@ -38,7 +38,7 @@ local options = {
     -- sidescrolloff = 8,
     guifont = "monospace:h17",               -- the font used in graphical neovim applications
     foldmethod="expr",                       -- allow a function to determine folding
-    foldexpr="nvim_treesitter#foldexpr()",   -- set folding function
+    foldexpr="v:lua.vim.treesitter.foldexpr()", -- set folding function (Neovim built-in)
     foldenable = false,                     -- disable folding at startup.
 }
 
