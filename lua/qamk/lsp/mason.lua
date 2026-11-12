@@ -36,6 +36,9 @@ require("mason").setup(settings)
 require("mason-lspconfig").setup({
     ensure_installed = servers,
     automatic_installation = false,
+    -- ts_ls stays installed and configured, but only starts on `:lsp enable ts_ls`
+    -- (for TypeScript < 7 projects). TypeScript 7+ uses tsc below.
+    automatic_enable = { exclude = { "ts_ls" } },
 })
 
 -- local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
@@ -61,3 +64,11 @@ for _, server in pairs(servers) do
 
     vim.lsp.config(server, opts)
 end
+
+-- TypeScript 7's native language server (`tsc --lsp`), run from the project's
+-- node_modules. Not a Mason package, so it is configured and enabled here.
+vim.lsp.config("tsc", {
+    on_attach = require("qamk.lsp.handlers").on_attach,
+    capabilities = require("qamk.lsp.handlers").capabilities,
+})
+vim.lsp.enable("tsc")
